@@ -1,21 +1,22 @@
 # WORK EXPERIENCE
 
 ### Testing Engineer, Aidin Technologies Pvt. Ltd., Bangalore (Nov 2021 - July 2024)
-- Developed and tested a Wearable Health Monitoring System for the **Gaganyaan mission**, which includes a wearable textile vest. **BioVest Electronics (BVE)** captures astronauts' physiological data, and the **Avionics Interface Unit (AIU)** collects data and radiation levels from the Dosimeter (PERDAA) for transmission to the onboard **Mission Computer (MC)** via communication interfaces on behalf of **DEBEL under AS9100 Rev. D compliance**.
-- Tested the **Magnetic Torquer system**, which features a dual coil setup (Coil-Mand Coil-Reach), capable of producing a 12.5 A·m² dipole movement. Operating voltage spans from 26 V to 32.4 V DC, incorporating Zener protection circuits for safety and telemetry status monitoring. 
-- Designed and implemented **Illumination Testing Setup** to validate engineering, qualification, and flight models of **Four Pi Sun Sensors**.
-  - Created an automated **Tilt Table** with a precision of 0.01 degrees.
-  - Developed a Python code interface for a PC with the Keithley 2401 Source meter and Arduino Mega 2560 using RS-232 and UART protocols to store **Short Circuit Readings**.
-  - Implemented a **Kalman Filter** to process raw tilt readings from photocells (Murata SCL3300-D01) and NTC thermistors to detect temperature and tilt.
-  - Tested a minimum of 18 space-grade sensors under AS9100 Rev. D compliance.
-
+- Developed and tested a Wearable Health Monitoring System for the **Gaganyaan mission**, which includes a wearable textile vest. **BioVest Electronics (BVE)** captures astronauts' physiological data, While the **Avionics Interface Unit (AIU)** collects this data and radiation levels from the Dosimeter (PERDAA) for transmission to the onboard **Mission Computer (MC)** through various communication interfaces on behalf of **DEBEL under AS9100 Rev. D compliance**.
+- Tested the **Magnetic Torquer system**, which features a dual coil setup **(Coil-Main Coil-Redundant)**,each capable of producing a 12.5 A·m² dipole movement. It's Operating voltage spans from 26 V to 32.4 V DC, and incorporates a Zener protection circuits for safety and telemetry point status monitoring. An electrical interface is established using a D‑type9‑pin Connectorplug, all with in a mechanical envelope measuring less than **34mmx60mmx60mm** protection against back **electromotiveforce(EMF)** under AS9100Rev.Dcompliance.
+- Designed and implemented **Illumination Testing Setup** to validate engineering, qualification, and flight models of **Four Pi Sun Sensors**.  This included the design of an automated Tilt Table with accuracy and precision of 0.01 degrees; the creation of a Python codetointerface a PC with the Keithley 2401 Source‑meter and an Arduino Mega 2560 via the RS‑232 Protocol and URAT protocol, respectively, to store Short Circuit current readings from 2 photocells, their Tilt and estimated Temperature readings. A Murata SCL3300‑D01 communicating via SPI protocol and two 1021 kOhm NTC Thermistors were connected to the Arduino to sense Tilt and Temperature, respectively. A Kalman Filter was implemented to process raw tilt readings. This setup will test a minimum of 18 Space Grade sun sensors under AS9100Rev.Dcompliance.
+- Tested on a GNSS receiver with Rx‑toolssoftware. The system uses a Texas Instruments development kit connected to the computer configured through the COM Port under serial connection settings. The hardware ensures a stable 3.3V power supply to the GPS antenna for precise satellite geolocation under AS9100 Rev.D compliance.
 - Conducted EMI/EMC testing for the **Bio Vest Electronics Package** to be used in the Gaganyaan Human Space Missions with Tata Advanced Systems Ltd.
+- Proficiently reviewed Gerber files and net lists collaborating closely with the designer to ensure precision and quality control.
+- Performedreliability assessments on BEL projects (PDU, PS, IF, RPPS, SI logic), DEBEL projects (AIU, BVE) and RF projects involving (FR4 circuits) collaborating closely with the designer to ensure precision and quality control.
+- Contributed to the EMI/EMC testing of the Avionics Interface Unit of the Bio Vest Electronics Package to be used in the Gaganyaan
+ Human Space Missions with engineers from Tata Advanced Systems Limited and Aidin Technologies Pvt. Ltd.
   
 ### Testing Engineer for Vending Machine, Aidin Technologies Pvt. Ltd. (Nov 2020 - Nov 2021)
-- Tested and validated vending machines from KWIK24 and BigBasket, saving 30% in testing time and costs through automation.
-  - Worked with PCB testing and machine calibration, using **Termite Software** for remote flashing with **Putty Software**.
-  - Automated regression and functional test suites using **JuiceSSH app** and **BBInstantApp**.
-  - Collaborated closely with the automation team for automated test execution timelines and process optimization.
+- The project’s goal is to test and validate vending machines from **KWIK24 and BigBasket** saving 30% in testing time and costs through automation.
+- It involves PCB testing and machine calibration with **Termite Software** remote flashing with **Putty Software**,and extensive automation of regression and functional test suites.
+- Activities include defect tracking, bug resolution, and final machine tests using **JuiceSSH** app and **BBInstantApp**, and collaboration with the automationteam.
+- Theproject also focuses on manual and automated test case execution test plan timeline development, and continuous improvement of the testing process.
+
 
 ### Backend Support Specialist, Tenet Technetronics (Oct 2019 - May 2020)
 - Provided **backend support** and resolved electronic circuit issues in motherboards and related components.
@@ -30,6 +31,6 @@
 
 ## Certifications
 - AS9100 Rev. D Certification
-- JAVA certification, HTML, CSS
+- JAVA certification, HTML, CSS, MONGO DB
   
 
